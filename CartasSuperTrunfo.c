@@ -11,5 +11,29 @@ int main() {
 
   // Área para exibição dos dados da cidade
 
+  char nomeCidade[50];
+    int populacao;
+    char nomeCidade2[50];
+    int populacao2;
+
+    printf("Digite o nome da cidade: ");
+    scanf("%49s", nomeCidade);
+
+    printf("Digite a populacao: ");
+    scanf("%d", &populacao);
+
+    printf("Digite o nome da cidade 2: ");
+    scanf("%49s", nomeCidade2);
+
+    printf("Digite a populacao 2: ");
+    scanf("%d", &populacao2);
+
+    printf("Cidade: %s\n", nomeCidade);
+    printf("Populacao: %d\n", populacao);
+
+
+    printf("Cidade: %s\n", nomeCidade2);
+    printf("Populacao: %d\n", populacao2);
+
 return 0;
 } 
